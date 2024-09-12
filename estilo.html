@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site NBA - NBA</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" type="imagex/ICO" href="./img/logo NBA.ICO">
+</head>
+<script>
+    function calcularMedia() {
+        var jogo1 = parseInt(document.getElementById("jogo1").value);
+        var jogo2 = parseInt(document.getElementById("jogo2").value);
+        var jogo3 = parseInt(document.getElementById("jogo3").value);
+        var jogo4 = parseInt(document.getElementById("jogo4").value);
+        var jogo5 = parseInt(document.getElementById("jogo5").value);
+
+        var soma = jogo1 + jogo2 + jogo3 + jogo4 + jogo5;
+        var media = soma / 5;
+
+        document.getElementById("resultado").innerHTML = "A média de pontos do jogador é: " + media.toFixed(2);
+    }
+</script>
+<body>
+    <header id="cabecario">
+        <div id="logodiv">
+            <img id="logo" src="img/logo NBA.ICO" alt="logo NBA"/>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="#michaeljordan">Michael Jordan</a></li>
+                <li><a href="#lebronjames">LeBron James</a></li>
+                <li><a href="#jogadores">Jogadores</a></li>
+            </ul>
+        </nav>
+    </header>
+<section id="fundo"">
+    <div>
+        <h1 id="titulo1">NBA</h1>
+        <hr align="center" width="80%">
+        <h2 id="subtitulo1">Um pouco sobre a história e jogadores da NBA.</h2>
+        <a id="acao1" href="https://www.nba.com" target="_blank">NBA!</a>
+    </div>
+</section>
+
+    <section id="michaeljordan" class="destaque2">
+        <div class="coluna dois">
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/3M2NCcSxKLY" title="Michael Jordan Career High Highlights vs Cavaliers (1990.03.28) - 69pts! (HD 720p 60fps)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="coluna dois">
+            <h3 class="centralizado">Michael Jordan</h3>
+            <p class="justificado">Michael Jordan, nascido em 17 de fevereiro de 1963 em Brooklyn, Nova York, é amplamente reconhecido como um dos maiores jogadores de basquete de todos os tempos. Sua carreira na NBA com o Chicago Bulls foi marcada por seis campeonatos da NBA entre 1991 e 1998, destacando-se como artilheiro da liga por dez temporadas e ganhando cinco prêmios de MVP.</p>
+            <p class="justificado">Jordan é conhecido por sua habilidade excepcional de pontuar e por seu estilo de jogo explosivo, tornando-se um ícone global. Além de suas conquistas esportivas, ele teve um impacto cultural significativo com a linha de tênis Air Jordan da Nike.</p>
+            <p class="justificado">Após aposentar-se pela primeira vez em 1993, retornou para mais três títulos com os Bulls e teve uma breve passagem pelo beisebol antes de se aposentar definitivamente em 2003. </p>
+            <p class="justificado">Sua influência estende-se além das quadras, inspirando jogadores e fãs, e ele atualmente atua como proprietário do Charlotte Hornets.</p>
+        </div>
+    </section>
+
+    <section id="lebronjames" class="destaque3">
+        <div class="coluna dois">
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/koplcs7BMIc" title="LeBron James EPIC MOMENTS From The 2018 Playoffs! 🤯🔥" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="coluna dois direita">
+            <h3 class="centralizado">LeBron James</h3>
+            <p class="justificado">LeBron James, nascido em Akron, Ohio, em 1984, é uma figura proeminente no basquete, conhecido por sua versatilidade e liderança.</p>
+            <p class="justificado">Começou sua carreira no Cleveland Cavaliers e ganhou quatro títulos da NBA, destacando-se como MVP das finais em várias ocasiões.</p>
+            <p class="justificado">Fora das quadras, ele é um defensor ativo de causas sociais e fundador da LeBron James Family Foundation. LeBron transcende o esporte, sendo uma inspiração global e um ícone cultural do século XXI.</p>
+        </div>
+    </section>
+
+    <section id="jogadores">
+        <h1 class="centralizado">Jogadores Relevantes</h1>
+        <div class="coluna quatro centralizado">
+            <img class="icone" src="img/kobe-bryant.png" alt="Kobe Bryant"/>
+            <h4>Kobe Bryant</h4>
+            <p>Integrante do Hall da Fama do basquete, Kobe teve duas camisas aposentadas pelos Lakers — a 8 e a 24. Pela franquia de Los Angeles, na Califórnia, Bryant marcou 1.860 pontos em jogos de pré-temporada, 33.643 em duelos de temporada regular e 5.640 em partidas de playoffs. Além disso, marcou a história da NBA: integrou a seleção dos 75 anos da liga e foi selecionado 18 vezes para o All-Star Game, além de ter sido duas vezes cestinha da temporada e MVP em 2007/2008.</p>
+        </div>
+        <div class="coluna quatro centralizado">
+            <img class="icone" src="img/jayson-tatum.png" alt="Jayson Tatum"/>
+            <h4>Jayson Tatum</h4>
+            <p>Em termos de recordes de franquia, Tatum tornou-se apenas a sexta pessoa na história dos Celtics a marcar mais de 50 pontos em um jogo de playoff; ele também se tornou o único jogador na história da NBA a marcar mais de 50 pontos mais de uma vez na temporada regular, mais de 50 pontos em um jogo de play-in e mais de 50, além de ganhar o último playoffs com os Celtics.</p>
+        </div>
+        <div class="coluna quatro centralizado">
+            <img class="icone" src="img/Nikola-Jokic.png" alt="Nikola Jokić"/>
+            <h4>Nikola Jokić</h4>
+            <p>É a terceira vez que Jokic é eleito MVP da temporada regular. O sérvio venceu o prêmio em 2020/2021 e 2021/2022. Além disso, ficou em segundo lugar em 2022/2023 e foi eleito MVP das Finais na temporada passada, quando comandou os Nuggets ao primeiro título da história da franquia.</p>
+        </div>
+        <div class="coluna quatro centralizado">
+            <img class="icone" src="img/luka-doncic.png" alt="Luka Dončić"/>
+            <h4>Luka Dončić</h4>
+            <p>O armador subiu para a equipe principal com apenas 16 anos e fez história: foram três títulos espanhóis e uma conquista da EuroLeague (a "Champions League do Basquete"). Além disso, aos 19 anos, se tornou o MVP mais novo da história da Liga Espanhola.</p>
+        </div>
+    </section>
+
+
+    
+    <section id="calculo-media">
+        <h3 class="centralizado">Cálculo da Média de Pontos do Jogador</h3>
+        <div class="coluna dois direita">
+            <p>Digite os pontos dos 5 jogos do jogador:</p>
+            <form>
+                <label for="jogo1">Jogo 1:</label>
+                <input type="number" id="jogo1"><br><br>
+                <label for="jogo2">Jogo 2:</label>
+                <input type="number" id="jogo2"><br><br>
+                <label for="jogo3">Jogo 3:</label>
+                <input type="number" id="jogo3"><br><br>
+                <label for="jogo4">Jogo 4:</label>
+                <input type="number" id="jogo4"><br><br>
+                <label for="jogo5">Jogo 5:</label>
+                <input type="number" id="jogo5"><br><br>
+                <button type="button" onclick="calcularMedia()">Calcular Média</button>
+            </form>
+            <p id="resultado"></p>
+        </div>
+    </section>
+
+    <footer id="rodape">
+        <p>&copy; 2024 Site NBA - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

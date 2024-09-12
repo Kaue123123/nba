@@ -1,0 +1,272 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ #content {
+   flex: 1;
+ }
+ 
+ #logodiv {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    padding: 0;
+ }
+ 
+ 
+ #cabecario {
+    background-color: #000;
+    color: #000;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+ }
+ #logo {
+    width: 96px;
+    position: fixed;
+    top: 10px;
+    left: 5%;
+ }
+ 
+ 
+ #menu {
+    list-style: none;
+    display: flex;
+ }
+ 
+ 
+ #menu li {
+    margin: 0 15px;
+ }
+ 
+ 
+ #menu a {
+    color: white;
+    text-decoration: none;
+ }
+ 
+ 
+ #menu li:hover {
+    background-color: rgb(95, 95, 95);
+ }
+ 
+ 
+ #fundo {
+    background: url(img/Imagemfundo.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+ }
+ 
+ 
+ #titulo1 {
+    font-size: 60px;
+    line-height: 1;
+    margin: 0;
+ }
+ 
+ 
+ #subtitulo1 {
+    padding: 0 20%;
+ }
+ 
+ 
+ #acao1 {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+ }
+ 
+ 
+ #acao1:hover {
+    background-color: #fff;
+    color: #000;
+ }
+ 
+ 
+ .destaque2 {
+    background-color: rgb(41, 41, 41);
+    color: #ffffff;
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(270deg, rgb(0, 0, 0) 72%, rgba(255,0,0,1) 100%, rgba(0,0,0,1) 100%);
+ 
+ 
+    background: rgb(0, 0, 0);
+ background: linear-gradient(270deg, rgb(0, 0, 0) 72%, rgba(255,0,0,1) 100%, rgba(0,0,0,1) 100%);
+ }
+ 
+ 
+ .justificado {
+    text-align: justify;
+ }
+ 
+ 
+ .centralizado {
+    text-align: center;
+    color: white
+ }
+ 
+ 
+ .icone {
+    width: 260px;
+   
+ }
+ 
+ 
+ section {
+    padding: 10%;
+    float: left;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(270deg, rgb(0, 0, 0) 72%, rgba(255,0,0,1) 100%, rgba(0,0,0,1) 100%);
+ }
+ 
+ 
+ .destaque {
+    background-color: #000;
+   
+   
+ }
+
+ 
+ .destaque3 {
+    background-color: #474747;
+    color: #ffffff;
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(270deg, rgb(0, 0, 0) 72%, rgba(255,0,0,1) 100%, rgba(0,0,0,1) 100%);
+ 
+ 
+    background: rgb(0, 0, 0);
+ background: linear-gradient(270deg, rgb(0, 0, 0) 72%, rgba(255,0,0,1) 100%, rgba(0,0,0,1) 100%);
+ }
+ 
+ 
+ .imgeco {
+    width: 90%;
+    height: auto;
+ }
+ 
+ 
+ .coluna {
+    float: left;
+    padding: 3% 5%;
+    position: relative;
+ }
+ .direita{
+    align-content: end;
+ 
+ 
+ }
+ .esquerda{
+    align-content: normal;
+ }
+ .dois {
+    width: 100%;
+    box-sizing: border-box;
+ }
+ 
+ 
+ .tres {
+    width: 100%;
+    box-sizing: border-box;
+ }
+ 
+ 
+ .quatro {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    color: white;
+ }
+ 
+ 
+ @media (min-width: 768px) {
+    .dois {
+        width: 48%;
+    }
+ 
+ 
+    .quatro {
+        width: 22%;
+    }
+ }
+ 
+ 
+ @media (min-width: 1024px) {
+    #titulo1 {
+        font-size: 5em;
+    }
+ 
+ 
+    #subtitulo1 {
+        font-size: 2em;
+    }
+ 
+ 
+    #acao1 {
+        padding: 15px 30px;
+    }
+
+
+    #calculo-media {
+      text-align: center;
+      color: white;
+      background-color: #333; /* Cor de fundo para contrastar com o texto branco */
+      padding: 20px;
+      border-radius: px;
+  }
+  
+  #calculo-media h3 {
+      margin-bottom: 20px;
+  }
+  
+  #calculo-media form {
+      display: inline-block;
+      text-align: center;
+  }
+  
+  #calculo-media label,
+  #calculo-media input,
+  #calculo-media button,
+  #calculo-media p {
+      display: block;
+      margin: 5px;
+      text-align: center;
+  }
+  
+  #calculo-media input {
+      margin-left: 600px;
+  }
+
+  
+   
+ }
+ #rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+ }
+ 
+ 
